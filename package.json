@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "tsc",
 		"dev:server": "ts-node-dev --ignore-watch node_modules src/server.ts",
-		"prod:server": "tsc && node ./dist/server.ts"
+		"prod:server": "tsc && node ./dist/server.js"
 	},
 	"dependencies": {
 		"@types/socket.io": "^2.1.8",
