@@ -1,0 +1,22 @@
+{
+	"name": "vonix-chat-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc",
+		"dev:server": "ts-node-dev --ignore-watch node_modules src/server.ts",
+		"prod:server": "tsc && node ./dist/server.ts"
+	},
+	"dependencies": {
+		"@types/socket.io": "^2.1.8",
+		"express": "^4.17.1",
+		"moment": "^2.27.0",
+		"socket.io": "^2.3.0"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.7",
+		"ts-node-dev": "^1.0.0-pre.51",
+		"typescript": "^3.9.6"
+	}
+}
